@@ -7,9 +7,9 @@ from django.conf.urls import patterns, include, url
 urlpatterns = patterns('',
     # Examples:
     #url(r'^$', 'luniSite.views.home', name='home'),
-    url(r'^$', 'luniSite.views.Calendar', name='Calendar'),
+    url(r'^$', 'luniSite.views.Home', name='Home'),
     url(r'^calendar/', 'luniSite.views.Calendar', name='Calendar'),
-    url(r'^mailing/', 'luniSite.views.MailingLists', name='MailingLists'),
+    url(r'^contactus/', 'luniSite.views.ContactUs', name='ContactUs'),
     url(r'^orgs/', 'luniSite.views.Organizations', name='Organizations'),
     # url(r'^luniSite/', include('luniSite.foo.urls')),
     #url(r'^calendar/', include('luniCalendar.views.calendar')),
