@@ -1,4 +1,10 @@
+Presuming debian based distro:
+
+sudo apt-get install python-pip python-virtualenv  libpq-dev python-dev (required for psycopg2) 
+
+virtualenv --no-site-packages venv
 source venv/bin/activate
 
-sudo apt-get install libpq-dev python-dev (required for psycopg2) 
+pip install -r requirements.txt
 
+python manage.py runserver
