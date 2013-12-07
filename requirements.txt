@@ -16,3 +16,4 @@ waitress==0.8.8
 wsgiref==0.1.2
 zope.deprecation==4.0.2
 zope.interface==4.0.5
+pyramid-simpleform==0.6.1

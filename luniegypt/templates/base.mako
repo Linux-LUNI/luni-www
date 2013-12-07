@@ -64,7 +64,7 @@
 
     <div class="container">
 
-      <div class="well">
+      <div>
         <h1   >Linux Users of Northern Illinois</h1>
       </div>
         <p class="lead"><%block name="blockContent"/></p>
