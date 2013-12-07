@@ -2,9 +2,8 @@
 
 
 <%block name="blockContent">
-
      <div class="row">
-        <div class="span4">
+        <div class="col-6 col-sm-6 col-lg-4">
           <h2>FLOSS Groups</h2>
 		<ul>
 
@@ -16,14 +15,14 @@
 		</ul>
 
         </div>
-        <div class="span4">
+        <div class="col-6 col-sm-6 col-lg-4">
             <h2>Security Groups</h2>
 		<ul>
 		    <li><a href="http://www.chicago2600.net/"> Chicago 2600 Group </a></li>
 		    <li><a href="http://pumpingstationone.org/"> Pumping Station One (Hackerspace )</a></li>
 		<ul>
        </div>
-        <div class="span4">
+        <div class="col-6 col-sm-6 col-lg-4">
             <h2>Programming Languages</h2>
         <ul>
 		    <li><a href="http://www.cjug.org/">Chicago Java</a></li>

@@ -6,7 +6,9 @@ Home-page: UNKNOWN
 Author: UNKNOWN
 Author-email: UNKNOWN
 License: UNKNOWN
-Description: luni-egypt README
+Description: Migrated website from Django to Pyramid.
+        
+        See django_www branch for the previous version and history.
         
         
         0.0

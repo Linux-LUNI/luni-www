@@ -1,6 +1,7 @@
 <html lang="en"><head> <title> Linux Users of Norther Illinois - ${title}</title>
  <!-- Bootstrap -->
  <link href="static/css/bootstrap.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps' rel='stylesheet' type='text/css'>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta name="description" content="">
  <meta name="author" content="">
@@ -8,6 +9,9 @@
 
  <!-- Le styles -->
  <style type="text/css">
+   h1 {
+       font-family: 'Oleo Script Swash Caps', cursive; font-size: 48px; 
+    }
    body {
      padding-top: 60px;
      padding-bottom: 40px;
@@ -17,6 +21,7 @@
 
 </head>
 <body>
+
 
 
 
@@ -46,10 +51,10 @@
 
     <div class="container">
 
-      <div class="starter-template">
-        <h1>Linux Users of Northern Illinois</h1>
-        <p class="lead"><%block name="blockContent"/></p>
+      <div class="well">
+        <h1   >Linux Users of Northern Illinois</h1>
       </div>
+        <p class="lead"><%block name="blockContent"/></p>
 
     </div>
 
