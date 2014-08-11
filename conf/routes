@@ -1,0 +1,14 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET        /                    controllers.Luni.home()
+GET        /contactus           controllers.Luni.contactus()
+GET        /calendar            controllers.Luni.calendar()
+GET        /orgs                controllers.Luni.orgs()
+GET        /home                controllers.Luni.home()
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET        /assets/*file        controllers.Assets.at(path="/public", file)
